@@ -1,0 +1,25 @@
+{
+  "name": "blogsystem",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "moment": "*",
+    "mongodb": "*",
+    "monk": "*",
+    "morgan": "~1.9.0",
+    "multer": "*",
+    "truncate-text": "^1.0.2"
+  }
+}
